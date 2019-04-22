@@ -1,0 +1,61 @@
+<scene formatVersion="1.0.1" previous_export_time="1430494350.424755" export_time="1430494386.038436" exported_by="host759" >
+  <nodes >
+    <node name="Sun" >
+      <position x="1.519818" z="6.110837" y="5.383397" />
+      <rotation qy="-0.079638" qz="-0.155300" qw="0.868247" qx="0.464421" />
+      <scale x="1.000000" z="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" name="Sun" type="directional" >
+        <position x="1.519818" z="6.110837" y="5.383397" />
+        <lightAttenuation range="5000" linear="0.04" quadratic="0.0" constant="1.0" />
+        <direction x="0.344" z="0.782" y="-0.52" />
+        <colourDiffuse r="1.0" b="1.0" g="1.0" />
+        <colourSpecular r="1.0" b="1.0" g="1.0" />
+      </light>
+    </node>
+    <node name="PlayerArmature" >
+      <position x="0.000000" z="-0.000000" y="1.100000" />
+      <rotation qy="0.000000" qz="-0.000000" qw="1.000000" qx="0.000000" />
+      <scale x="0.500000" z="0.500000" y="0.500000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+    </node>
+    <node name="Player" >
+      <position x="0.000000" z="-0.000000" y="0.000000" />
+      <rotation qy="0.000000" qz="-0.000000" qw="1.000000" qx="0.000000" />
+      <scale x="0.500000" z="0.500000" y="0.500000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity actor="False" physics_type="STATIC" inertia_tensor="0.4000000059604645" lock_rot_y="False" friction_y="1.0" mass_radius="1.0" lock_trans_z="False" velocity_max="0.0" ghost="False" lock_rot_z="False" damping_trans="0.02539999969303608" mass="1.0" lock_rot_x="False" velocity_min="0.0" lock_trans_y="False" lock_trans_x="False" friction_z="1.0" name="Cube" friction_x="1.0" damping_rot="0.1589999943971634" meshFile="Cube.mesh" anisotropic_friction="False" />
+    </node>
+    <node name="Camera" >
+      <position x="0.000000" z="6.000000" y="1.500000" />
+      <rotation qy="0.000000" qz="-0.000000" qw="0.713250" qx="0.700909" />
+      <scale x="1.000000" z="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera projectionType="perspective" name="Camera" fov="0.5033799435163735" >
+        <clipping nearPlaneDist="0.10000000149011612" far="100.0" near="0.10000000149011612" farPlaneDist="100.0" />
+      </camera>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="/Users/host759/Documents/MyOgreExportCharacter/Player.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourDiffuse r="0.05087608844041824" b="0.05087608844041824" g="0.05087608844041824" />
+    <colourBackground r="0.05087608844041824" b="0.05087608844041824" g="0.05087608844041824" />
+    <colourAmbient r="0.0" b="0.0" g="0.0" />
+  </environment>
+</scene>
